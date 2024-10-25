@@ -1,0 +1,120 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Reset styling for consistency */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+/* Basic body styling */
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    color: #333;
+    background-color: #f5f5f5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Navigation styling */
+nav {
+    background-color: #ffffff;
+    width: 100%;
+    padding: 15px 0;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+nav ul li a {
+    color: #555;
+    text-decoration: none;
+    font-weight: 500;
+    padding: 10px;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #007acc;
+    transform: scale(1.1);
+}
+
+/* Section styling */
+section {
+    padding: 60px 20px;
+    margin: 60px 0;
+    max-width: 700px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+section:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* Heading styling */
+h1, h2 {
+    color: #1e3c72;
+    margin-bottom: 15px;
+    font-size: 2.5em;
+    font-weight: 600;
+}
+
+p, ul {
+    font-size: 1.1em;
+    color: #666;
+    line-height: 1.7;
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+/* Footer styling */
+footer {
+    padding: 15px;
+    text-align: center;
+    color: #666;
+    background-color: #fafafa;
+    width: 100%;
+    border-top: 1px solid #eaeaea;
+}
+.RHH-image {
+    width: 150px; /* Adjust size as needed */
+    height: auto; /* Maintains aspect ratio */
+    border-radius: 50%; /* Makes the image circular */
+    margin-bottom: 20px; /* Adds space below the image */
+}
+
+
